@@ -8,7 +8,6 @@ function Esercizi_Variabili_e_Costanti_Javascript() {
     let numero = 5;
     console.log(numero);
 
-
     // Esercizio 2
     // Dichiarare una costante chiamata "PI" e assegnarle il valore di 3.14. Stampare il valore della costante sulla console.
     const PI = 3.14;
@@ -29,7 +28,7 @@ function Esercizi_Variabili_e_Costanti_Javascript() {
 
 
 
-    // 🍰 Esercizio 5
+    // Esercizio 5
     // Dichiarare una variabile chiamata "vero" e assegnarle il valore true. Stampare il valore della variabile sulla console.
     let vero = "true";
     console.log(vero);
@@ -39,7 +38,7 @@ function Esercizi_Variabili_e_Costanti_Javascript() {
     let numeri = [1, 2, 3, 4, 5];
     console.log(numeri);
 
-    // 🍰 Esercizio 7 (opzionale)
+    // Esercizio 7 (opzionale)
     // Dichiarare una variabile chiamata "persona" e assegnarle un oggetto con le seguenti proprietà: "nome" (con valore "Mario") e "età" (con valore 30). Stampare l'oggetto sulla console.
     let persona = {
         nome: "Mario",
