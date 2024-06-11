@@ -178,7 +178,7 @@ function Esercizi_Operatori_di_Comparazione_Javascript() {
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è maggiore del secondo.
 let numero1 = 10;
 let numero = 11
-console.log(numero > numero);
+console.log(numero1 > numero);
 
 //  Esercizio 2
 // Stampa sulla console il risultato del confronto tra due stringhe per verificare se la prima stringa viene prima della seconda in ordine alfabetico.
@@ -189,12 +189,12 @@ console.log(string1 < string2);
 //  Esercizio 3
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono uguali.
 let numero2 = 10;
-let numero0 = "5"
+let numero0 = "5";
 console.log(numero2 == numero0);
 
 //  Esercizio 4
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono uguali sia in valore che in tipo.
-
+console.log(numero2 === numero0);
 
 //  Esercizio 5
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono diversi.
@@ -204,7 +204,7 @@ console.log(numero4 != numero5);
 
 //  Esercizio 6
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono diversi sia in valore che in tipo.
-
+console.log( numero2 !== numero5);
 
 //  Esercizio 7
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è minore-uguale del secondo.
@@ -260,8 +260,16 @@ if ( numero1 > 0 && numero2 < 20 && numero1 == 5) {
 
 // Esercizio 5
 // Date due stringhe valutare se stringa1 non è vuota e stringa2 non è la parola "treno".
+let  stringa3 = "";
+let stringa4 = "ciao moroso";
+console.log(stringa3.length > 0 && stringa4  != "treno");
 
 
 // Esercizio 6
 // Dati tre numeri valutare se: valore1 è maggiore di zero oppure valore2 è minore di venti. Queste condizioni devono verificarsi insieme a valore3 compreso tra 10 e 20.
+let numero11 = 1;
+let numero12 = 2
+let numero13 = 3;
+console.log((numero11 > 0 || numero12 < 20) && (numero13 > 10 && numero13 < 20));
+
 }
