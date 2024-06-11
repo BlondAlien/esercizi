@@ -172,7 +172,7 @@ function Esercizi_Lavorare_con_Numeri_Javascript() {
 }
 
 
-function Esercizi_Operatori_di_Comparazione_Javascript() {
+function Esercizi_Operatori_di_Comparazione_Javascript() { 
 
 // Esercizio 1
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è maggiore del secondo.
@@ -225,19 +225,38 @@ function Esercizi_Operatori_Logici_Javascript(){
 
 // Esercizio 1
 // Stampa sulla console il risultato della valutazione di due condizioni a scelta utilizzando l'operatore AND.
-
+let numero = 20;
+if (numero > 16 && numero == 0) {
+    console.log("giusto");
+}
+else{
+    console.log(sbagliato);
+}
 
 // Esercizio 2
 // Stampa sulla console il risultato della valutazione di due condizioni a scelta utilizzando l'operatore OR.
-
+if (numero > 16 || numero == 4) {
+    console.log("giusto")
+}
+else{
+    console.log("sbagliato");
+}
 
 // Esercizio 3
 // Stampa sulla console il risultato della negazione di una condizione a scelta utilizzando l'operatore NOT.
-
+if (!(numero == 20)){
+    console.log("vero");
+}
+else{
+    console.log(falso);
+}
 
 // Esercizio 4
 // Date due costanti valutare se valore1 è maggiore di 0 e valore2 è minore di 20, oppure se valore1 è uguale a 5.
-
+let numero1 = 25;
+let numero2 = 12;
+if ( numero1 > 0 && numero2 < 20 && numero1 == 5) {
+}
 
 // Esercizio 5
 // Date due stringhe valutare se stringa1 non è vuota e stringa2 non è la parola "treno".
