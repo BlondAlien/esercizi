@@ -176,15 +176,21 @@ function Esercizi_Operatori_di_Comparazione_Javascript() {
 
 // Esercizio 1
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è maggiore del secondo.
-
+let numero1 = 10;
+let numero = 11
+console.log(numero > numero);
 
 //  Esercizio 2
 // Stampa sulla console il risultato del confronto tra due stringhe per verificare se la prima stringa viene prima della seconda in ordine alfabetico.
-
+let string1 = "sara";
+let string2 = "furia";
+console.log(string1 < string2);
 
 //  Esercizio 3
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono uguali.
-
+let numero2 = 10;
+let numero0 = "5"
+console.log(numero2 == numero0);
 
 //  Esercizio 4
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono uguali sia in valore che in tipo.
@@ -192,7 +198,9 @@ function Esercizi_Operatori_di_Comparazione_Javascript() {
 
 //  Esercizio 5
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono diversi.
-
+let numero4 = "3";
+let numero5 = 5;
+console.log(numero4 != numero5);
 
 //  Esercizio 6
 // Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono diversi sia in valore che in tipo.
@@ -200,11 +208,15 @@ function Esercizi_Operatori_di_Comparazione_Javascript() {
 
 //  Esercizio 7
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è minore-uguale del secondo.
-
+let numero6 = 7;
+let numero7 = 10;
+console.log( numero6 <= numero7);
 
 //  Esercizio 8
 // Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è diverso dal secondo.
-
+let numero8 = 8;
+let numero9 = 9;
+console.log(numero8 != numero9);
 
 }
 
