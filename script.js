@@ -273,3 +273,118 @@ let numero13 = 3;
 console.log((numero11 > 0 || numero12 < 20) && (numero13 > 10 && numero13 < 20));
 
 }
+
+function Esercizi_Stringhe_Javascript()
+{
+    // Esercizio 1
+    // Scrivi un programma che prenda una stringa in input e stampi sulla console la sua lunghezza.
+
+
+    // 🍰 Esercizio 2
+    // Scrivi un programma che prenda due stringhe, le concateni e stampi il risultato sulla console.
+
+
+    // 🍰 Esercizio 3
+    // Scrivi un programma che confronti due stringhe e stampi sulla console se sono uguali o diverse in due `console.log` separati.
+
+
+    // 🍰 Esercizio 4
+    // Scrivi un programma che prenda una stringa numerica e la converta in un numero, stampando il risultato in console.
+
+    
+    // 🍰 Esercizio 5
+    // Scrivi un programma che prenda una stringa e una sottostringa, utilizzi il metodo includes() per verificare se la sottostringa è presente nella stringa e stampi il risultato sulla console.\
+
+
+    // 🍰 Esercizio 6
+    // Scrivi un programma che prenda una stringa e utilizzando il metodo slice() estragga una parte della stringa in base agli indici di inizio e fine e stampi il risultato sulla console.
+
+
+    // 🍰 Esercizio 7
+    // Scrivi un programma che prenda una stringa, la converta in maiuscolo e stampi il risultato sulla console.
+    
+
+    // 🍰 Esercizio 8
+    // Scrivi un programma che prenda una stringa maiuscola, la converta in minuscolo e stampi il risultato sulla console.
+
+
+    // 🍰 Esercizio 9
+    // Scrivi un programma che prenda una stringa, una sottostringa da cercare e una sottostringa da sostituire, utilizzando il metodo replace() e stampi il risultato sulla console.
+
+
+    // 🍰 Esercizio 10
+    // Scrivi un programma che prenda una stringa, la divida in un array di sottostringhe e stampi il risultato sulla console.
+
+
+    // 🍰 Esercizio 11
+    // Scrivi un programma che prenda una stringa in input, rimuova gli spazi iniziali e finali, poi stampi il risultato sulla console.
+
+
+}
+
+function Esercizi_Stringhe_Javascript(){
+//     Esercizio 1
+// Scrivi un programma che utilizzi un template literal per creare una stringa che includa il valore di una variabile e stampi il risultato sulla console.
+
+
+// 🍰 Esercizio 2
+// Scrivi un programma che utilizzi un template literal per calcolare e stampare il risultato di una somma tra due variabili sulla console.
+
+
+// 🍰 Esercizio 3
+// Scrivi un programma che utilizzi un template literal per mostrare nome, età e città di una persona su diverse righe in console.
+
+
+// 🍰 Esercizio 4 (difficile)
+// Scrivi un programma che utilizzi un template literal per creare una lista HTML con elementi dinamici e stampi il risultato sulla console.
+
+
+// 🍰 Esercizio 5
+// Scrivi un programma che utilizzi un template literal per creare un messaggio email formattato con nome dinamico.
+
+
+// 🍰 Esercizio 6
+// Scrivi un programma che utilizzi un template literal per creare un URL dinamico combinando una stringa di base e un parametro e stampi il risultato sulla console.
+
+
+// 🍰 Esercizio 7
+// Scrivi un programma che utilizzi un template literal per formattare un valore monetario e stamparlo sulla console.
+
+
+// 🍰 Esercizio 8
+// Scrivi un programma che richieda l'input dell'utente per il nome e l'età, quindi utilizzi un template literal per creare un messaggio personalizzato e stamparlo sulla console.
+}
+
+
+function Esercizi_Condizioni_IF_ELSE_Javascript(){
+// Esercizio 1
+// Scrivi un programma che prenda un numero e stampi sulla console se è positivo, negativo o zero.
+
+
+// 🍰 Esercizio 2
+// Scrivi un programma che prenda un numero e stampi sulla console se è pari o dispari.
+
+
+// 🍰 Esercizio 3
+// Scrivi un programma che prenda l'età di una persona e stampi sulla console se può guidare.
+
+
+// 🍰 Esercizio 4
+// Scrivi un programma che prenda il punteggio di uno studente in input e stampi sulla console il suo livello (A, B, C, D). A parte da 90 punti, B ne richiede minimo 80 e C 70 punti.
+
+
+// 🍰 Esercizio 5
+// Scrivi un programma che prenda l'età e una variabile booleana che indica se la persona ha una patente, quindi stampi sulla console se la persona è maggiorenne e ha una patente
+
+
+// 🍰 Esercizio 6
+// Scrivi un programma che prenda un anno e stampi sulla console se è bisestile o no.
+
+
+// 🍰 Esercizio 7
+// Scrivi un programma che prenda una parola e stampi sulla console se è un palindromo.
+
+
+// 🍰 Esercizio 8
+// Scrivi un programma che prenda un numero da 1 a 7 e stampi sulla console il giorno della settimana corrispondente. Considera il caso in cui il numero possa essere errato.
+}
